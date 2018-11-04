@@ -1,0 +1,26 @@
+canvas{
+    float: left;
+}
+
+#right-col{
+    float: left;
+    width: 15%;
+    height: 300px;
+    margin-left: 2%;
+}
+
+#btns{
+    margin-left: 17%;
+}
+
+#digital{
+    font-family: 'digi';
+    font-size: 32px;
+    margin-top: 40%;
+    margin-left: 35%;
+}
+
+#splits{
+    margin-left: 42%;
+    margin-top: 5%;
+}
