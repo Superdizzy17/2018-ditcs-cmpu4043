@@ -6,6 +6,10 @@ let result = 0;
 let operator = '';
 let refreshDisplay = false;
 
+//Observable created with btns class
+//map the content (number) to the btn stream
+//Merge click event to corresponding number value
+//Merge key press event with corresponding key value
 const Stream$ = Observable.from(btns)
   .map(btn => Observable.fromEvent(btn, 'click')
   .mapTo(btn.textContent))
