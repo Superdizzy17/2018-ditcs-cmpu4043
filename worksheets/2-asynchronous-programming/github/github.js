@@ -3,9 +3,9 @@ const url = 'https://api.github.com/users';
 var ele = document.getElementById('myForm');
 if(ele.addEventListener)
 {
-    ele.addEventListener("submit", callback);  //Modern browsers
+    ele.addEventListener("submit", callback);
 }else if(ele.attachEvent){
-    ele.attachEvent('onsubmit', callback);       //Old IE
+    ele.attachEvent('onsubmit', callback);
 }
 
 function callback(e)

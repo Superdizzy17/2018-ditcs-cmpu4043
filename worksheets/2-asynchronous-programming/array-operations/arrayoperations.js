@@ -54,15 +54,21 @@ fetch(urlPosts).then(response => {
 
     function titles(post)
     {
-      var titleWords = post.title.split(' ');
+      //console.log(post);
+      //console.log(post.title);
 
-      if(titleWords.length > 6)
+      if(post.title)
       {
-        return true
-      }
-      else
-      {
-        return false
+        var titleWords = post.title.split(' ');
+
+        if(titleWords.length > 6)
+        {
+          return true
+        }
+        else
+        {
+          return false
+        }
       }
     }
 
